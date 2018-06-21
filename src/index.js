@@ -15,6 +15,6 @@ store.subscribe(render);
 registerServiceWorker();
 
 function fancyLog() {
-  console.log('%c Rendered with React', 'background: purple; color: #fff');
+  console.log('%cRedux Store', 'background: #744cbc; color: #fff');
   console.log(store.getState());
 }
